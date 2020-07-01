@@ -4,4 +4,7 @@ if(window.confirm("Are you sure you want to submit?"))
 {
 	window.open("Thanks for Visiting!")
 }
+else {
+	window.open("portfolio.html");
+}
 }

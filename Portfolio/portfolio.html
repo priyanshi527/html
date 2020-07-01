@@ -179,22 +179,22 @@
                         Shoot me a
                         <span class="text-primary">Message</span>
                     </h3>
-                    <form onsubmit="post()" method="post" action="contact.php">
+                    <form onsubmit="post()" action="https://formspree.io/moqknokk" method="POST" >
                         <div class="form-group">
                             <label for="first-name">First Name</label>
-                            <input type="text" placeholder="Enter Your First Name">
+                            <input type="text" name="name" placeholder="Enter Your First Name">
                         </div>
                         <div class="form-group">
                             <label for="last-name">Last Name</label>
-                            <input type="text" placeholder="Enter Your Last Name">
+                            <input type="text" name="last_name" placeholder="Enter Your Last Name">
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" placeholder="Enter Your Email ">
+                            <input type="email" name="_replyto" placeholder="Enter Your Email ">
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea rows="7" placeholder="Enter Your Message"></textarea>
+                            <textarea rows="7" name="message" placeholder="Enter Your Message"></textarea>
                         </div>
                         <input type="submit" value="Send Message" class="contact-btn">
                     </form>

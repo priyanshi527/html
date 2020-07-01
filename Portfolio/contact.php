@@ -14,5 +14,5 @@
     $headers = "From: $email_from \r\n";
     $headers .="Reply-To: $visitor_email \r\n";
     mail($to,$email_subject,$email_body,$headers);
-    header("Location: https://github.com/priyanshi527/html/blob/master/Portfolio/portfolio.html");
+    header("Location: https://priyanshi527.github.io/html/Portfolio/portfolio.html");
 ?>                            

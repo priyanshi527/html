@@ -31,7 +31,7 @@ function numbertochoice(number){
 	return ['rock','paper','scissors'][number];
 }
 function decideWinner(yourChoice,botChoice) {
-	var rpsdatabase ={
+	var rpsdatabase = {
 		'rock':{'scissors':1, 'paper':0 ,'rock':0.5},
 		'paper':{'scissors':0, 'paper':0.5 ,'rock':1},
 		'scissors':{'scissors':0.5, 'paper':1 ,'rock':0}

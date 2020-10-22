@@ -11,4 +11,6 @@ The First one is a combination of some fun activities :-
          Making this involved a lot of functions and conditions this part really made me use javascript to the fullest of my knowledge!!
          
          
-The second one is a Portfolio telling a breif about me. This is made using very basics of HTML5 and CSS without any framework. I have elegantly designed it ,easy to read and understand with very little designing giving i a sober look.        
+The second one is a Portfolio telling a breif about me. This is made using very basics of HTML5 and CSS without any framework. I have elegantly designed it ,easy to read and understand with very little designing giving i a sober look.
+
+P.S. All the commits are done by me it was just that my younger brother was trying some project so I unknowingly pushed from his id to my project.

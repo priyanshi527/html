@@ -130,9 +130,9 @@ var blackjackgame = {
 };
 const YOU=blackjackgame['you'];
 const DEALER=blackjackgame['dealer'];
-const hitSound = new Audio('https://priyanshi527.github.io/javascript/CARDS GAME/sounds/swish.m4a');
-const winSound = new Audio('https://priyanshi527.github.io/javascript/CARDS GAME/sounds/cash.mp3');
-const lostSound = new Audio('https://priyanshi527.github.io/javascript/CARDS GAME/sounds/aww.mp3');
+const hitSound = new Audio('https://priyanshi527.github.io/html/CARDS GAME/sounds/swish.m4a');
+const winSound = new Audio('https://priyanshi527.github.io/html/CARDS GAME/sounds/cash.mp3');
+const lostSound = new Audio('https://priyanshi527.github.io/html/CARDS GAME/sounds/aww.mp3');
 
 
 document.querySelector('#hit').addEventListener('click',blackjackhit);
@@ -153,7 +153,7 @@ function randomCard(){
 function showCard(card,activePlayer){
     if(activePlayer['score']<=21){
     let cardImage=document.createElement('img');
-	cardImage.src = `https://priyanshi527.github.io/javascript/CARDS GAME/images/${card}.png`;
+	cardImage.src = `https://priyanshi527.github.io/html/CARDS GAME/images/${card}.png`;
 	document.querySelector(activePlayer['div']).appendChild(cardImage);
     hitSound.play();	
 }

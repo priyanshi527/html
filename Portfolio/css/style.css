@@ -1,4 +1,3 @@
-
 *{
 	margin: 0;
 	padding: 0;
@@ -20,6 +19,7 @@ overflow-x: hidden;
 /*navbar*/
 #navbar {
 	display: flex;
+	flex-flow: wrap;
 	justify-content: space-between;
 	background: #333;
 	color: #fff;
@@ -152,6 +152,7 @@ padding: 1rem 10rem;
 }
 #skills .boxes{
 	display: flex;
+	flex-flow: wrap;
 }
 #skills .box {
 	background :#fff; 
@@ -194,6 +195,7 @@ padding: 1rem 10rem;
 #Projects .boxes {
 	display: flex;
 	flex-direction: column;
+	flex-flow: wrap;
 }
 #Projects .box {
 	background: rgba(54,147,255,0.7);
@@ -209,6 +211,9 @@ padding: 1rem 10rem;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #fff;
 	font-size: 1.2rem;
+}
+#Projects a{
+	color: #fff;
 }
 #Projects a.hotel {
 	font-family: 'Lato', sans-serif; 
